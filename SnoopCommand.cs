@@ -19,7 +19,6 @@ namespace CADSnoop
         [CommandMethod("Snoop")]
         public void Snoop()
         {
-
             Snoop(new List<ObjectId>());
         }
         /// <summary>
